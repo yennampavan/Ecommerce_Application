@@ -1,0 +1,35 @@
+/* src/pages/Admin/AdminDashboard.css */
+
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px 60px;
+  background-color: #f8fafc;
+  min-height: 85vh;
+}
+
+.admin-sidebar {
+  flex: 0 0 250px;
+}
+
+.admin-info-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.admin-info-card h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.admin-info-card p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}

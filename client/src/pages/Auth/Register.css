@@ -1,0 +1,98 @@
+/* Container Styling */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #F1F5F9; /* Light slate background */
+  padding: 24px;
+}
+
+/* Form Styling */
+.register-form {
+  background-color: #ffffff;
+  padding: 40px 32px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 500px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1D4ED8; /* Brand blue */
+  font-size: 28px;
+}
+
+/* Inputs & Textarea */
+.register-form input,
+.register-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1; /* Slate-300 */
+  border-radius: 8px;
+  background-color: #f9fafb;
+  transition: border 0.3s ease;
+}
+
+.register-form input:focus,
+.register-form textarea:focus {
+  border-color: #1D4ED8;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Textarea specific */
+.register-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button */
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1D4ED8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #2563EB; /* Slightly brighter blue */
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .register-form {
+    padding: 32px 20px;
+  }
+
+  .register-form h2 {
+    font-size: 24px;
+  }
+}
+.register-redirect-text {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: #334155; /* Slate gray */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-redirect-link {
+  color: #1D4ED8; /* Brand blue */
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}

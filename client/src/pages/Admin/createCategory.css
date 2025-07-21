@@ -1,0 +1,158 @@
+.admin-dashboard-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  background: #f8fafc; /* Light slate background */
+  min-height: 90vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-sidebar {
+  width: 220px;
+}
+
+.admin-main {
+  flex: 1;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.admin-main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1d4ed8; /* Blue-700 */
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.category-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.category-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.category-form input:focus {
+  border-color: #1d4ed8;
+  box-shadow: 0 0 0 2px rgba(29, 78, 216, 0.2);
+}
+
+.category-form button {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.category-form button:hover {
+  background-color: #1e40af; /* Blue-800 */
+}
+
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.category-table thead {
+  background-color: #f1f5f9; /* slate-100 */
+}
+
+.category-table th,
+.category-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.category-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit-btn {
+  background-color: #3b82f6; /* Blue-500 */
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #2563eb; /* Blue-600 */
+}
+
+.delete-btn {
+  background-color: #ef4444; /* Red-500 */
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626; /* Red-600 */
+}
+/* General Button Style */
+.btn {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Edit Button - Primary Style */
+.btn-edit {
+  background-color: #1D4ED8; /* Blue */
+  color: #ffffff;
+}
+
+.btn-edit:hover {
+  background-color: #1E40AF; /* Darker Blue */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(29, 78, 216, 0.2);
+}
+
+/* Delete Button - Danger Style */
+.btn-delete {
+  background-color: #DC2626; /* Red */
+  color: #ffffff;
+}
+
+.btn-delete:hover {
+  background-color: #B91C1C; /* Darker Red */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(220, 38, 38, 0.2);
+}
+
+/* Optional: Add subtle border if preferred */
+.btn-edit:focus,
+.btn-delete:focus {
+  outline: 2px solid #e0e7ff;
+}
