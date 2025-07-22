@@ -48,7 +48,7 @@ const ProductDetails = () => {
             <p className="price">₹{product.price}</p>
             <p className="category"><b>Category: </b>{product?.category?.name}</p>
             <AddToCart product={product} />
-            <button className="add-to-cart-btn">Add to Cart</button>
+            {/* <button className="add-to-cart-btn">Add to Cart</button> */}
           </div>
         </div>
 
